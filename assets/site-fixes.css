@@ -1,0 +1,2 @@
+/* Responsive embedded maps; preserve their desktop aspect ratio. */
+.textwidget iframe[src*="google.com/maps"] {max-width:100%;height:auto;aspect-ratio:1100/630;}
